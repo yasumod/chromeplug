@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "version" : "1.0",
+    "name": "Page History",
+    "key" : "test",
+    "permissions": [
+    "<all_urls>","webRequest","webRequestBlocking"
+    ],
+    "background": {
+        "scripts": [
+            "js/jquery.min.js",
+            "js/background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
