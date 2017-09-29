@@ -6,6 +6,14 @@
     "permissions": [
     "<all_urls>","webRequest","webRequestBlocking"
     ],
+    "icons":{
+        "16" : "icon/icon_blue.png"
+    },
+    "page_action": {
+        "default_icon" : "icon/icon_blue.png",
+        "default_title": "response details",
+        "default_popup": "response.html"
+    },
     "background": {
         "scripts": [
             "js/jquery.min.js",
